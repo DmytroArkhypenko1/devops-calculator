@@ -273,3 +273,7 @@ README.md
 - **Suite API compilation error:** confirm that the `junit-platform-suite` test dependency is present and reload the Maven project.
 - **No tests executed:** check the class or method name. Select `CalculatorTestSuite` explicitly when running the suite.
 - **Old page content:** save the source template, stop the application, run `mvn clean verify` and restart it.
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for supported versions and vulnerability reporting instructions.
