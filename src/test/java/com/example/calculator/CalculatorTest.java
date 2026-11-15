@@ -9,8 +9,8 @@ class CalculatorTest {
     private static final double DELTA = 0.000000001;
     // ======================== Addition Tests  ======================== 
     @Test
-    void shouldAddPositiveNumbers() {
-        assertEquals(6.0, Calculator.add(2, 3), DELTA);
+    void shouldAddTwoPositiveNumbers() {
+        assertEquals(5.0, Calculator.add(2, 3), DELTA);
     }
 
     @Test
